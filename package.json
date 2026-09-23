@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --open /app.html",
-    "build": "tsc -b && vite build && node scripts/finalize-build.mjs",
+    "build": "tsc -b && vite build && node scripts/finalize-build.mjs && vite build --ssr src/entry-server.tsx --outDir dist-ssr && node scripts/prerender.mjs",
     "publish:root": "npm run build && node scripts/publish-root.mjs",
     "lint": "eslint .",
     "preview": "vite preview"

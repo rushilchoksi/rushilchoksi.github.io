@@ -27,6 +27,8 @@ The site is a public, crawlable portfolio hosted from this repository and intend
 ## Capabilities and Constraints
 
 - Rushil's current role is Software Security Engineer at Aurelian, with significant infrastructure and security focus.
+- His LinkedIn profile export dated September 23, 2026 places him in Seattle and describes current work on infrastructure and reliability for real-time AI systems in public safety.
+- He was a founding engineer at aperture from June 2025 to September 2026, after cloud-security work at Sony. His USC research includes ICT and ISI.
 - Rushil completed an MS in Cyber Security Engineering at USC.
 - Rushil is based in Seattle, Washington.
 - The repository contains older public projects, four external articles, historical biography copy, personal photographs, and an abandoned space-themed redesign experiment.
@@ -46,11 +48,12 @@ The site is a public, crawlable portfolio hosted from this repository and intend
 ## Evidence on Hand
 
 - The explicit brief confirms the current Aurelian role and completed USC graduate degree.
+- A user-provided LinkedIn profile export dated September 23, 2026 confirms the current location and role, aperture and Sony history, USC research, and the scope of his current work.
 - The tracked historical site contains public descriptions and repository links for Space Launch Window Detection, Secure Authentication Architecture, RNN Password Generator, Solar Splash, Secure FTP, a private URL shortener, and private RPA work.
 - The tracked historical site contains external links to four published articles: quantum-era data security, fileless malware, financial transaction monitoring, and security monitoring with UEBA.
 - The repository contains three personal photographs and legacy project/article imagery. Several project and article images are generic or stock-like and should not be treated as proof of project outcomes.
 - GitHub, LinkedIn, Medium, Stack Overflow, and HackerRank profile links exist in the historical site. GitHub, LinkedIn, and Medium are the most relevant primary profiles.
-- No current resume file, current professional case-study material, testimonial, award documentation, or verified performance metric is present in the tracked historical site. Future work must not fabricate these.
+- No public professional case-study material or project imagery for Aurelian or aperture is available in the repository. The profile export contains limited professional metrics, but the primary experience does not need them. Future work must not invent case-study details.
 
 ## Product Principles
 

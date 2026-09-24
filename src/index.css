@@ -252,10 +252,10 @@ a:focus-visible, input:focus-visible { outline: 2px solid var(--signal); outline
   .provenance h2 { margin: 8svh 0 9svh; font-size: clamp(4.5rem, 16vw, 7rem); }
   .provenance h2 i { font-size: 1.25em; }
   .provenance-records::before { left: 2.6rem; }
-  .provenance-record { grid-template-columns: 2.6rem 1fr; gap: .9rem; min-height: 6.4rem; }
+  .provenance-record { position: relative; grid-template-columns: 2.6rem 1fr; gap: .9rem; min-height: 6.4rem; }
   .provenance-record strong { font-size: clamp(1.4rem, 6vw, 2.5rem); }
   .provenance-record div span { font-size: .75rem; }
-  .provenance-marker { display: none; }
+  .provenance-marker { position: absolute; top: 1rem; right: 0; display: block; padding-top: 0; font-size: .49rem; }
   .archive { grid-template-columns: 1fr; gap: 1rem; margin-top: 4rem; }
   .archive ul { gap: .6rem; flex-direction: column; }
   .archive a { min-height: 2.3rem; }

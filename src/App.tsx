@@ -80,14 +80,14 @@ function Identity() {
       <p>{site.focus.map((item, index) => <span key={item}>{index > 0 && <i aria-hidden="true">/</i>}{item}</span>)}</p>
       <a href="#current">Enter <span aria-hidden="true">↓</span></a>
     </div>
-    <p className="identity-coordinate">Seattle, Washington</p>
+    <p className="identity-coordinate">{site.location}</p>
   </section>
 }
 
 function Current() {
   return <section className="scene current" id="current" data-scene="current" aria-labelledby="current-title">
     <div className="current-sticky">
-      <div className="current-topline"><span>01 / Current state</span><span>Aurelian</span></div>
+      <div className="current-topline"><span>01 / Current state</span><span>{site.company}</span></div>
       <p className="current-verb">{site.currentLead} <em>{site.currentEmphasis}</em></p>
       <div className="current-body">
         <h2 id="current-title">Security<br /><span>has structure.</span></h2>
@@ -133,14 +133,14 @@ function Writing() {
 function Human() {
   return <section className="scene human" id="about" data-scene="human" aria-labelledby="human-title">
     <div className="human-index">06 / Off the clock</div>
-    <figure className="human-portrait"><img src="/media/rushil-portrait.webp" alt="Rushil Choksi taking a mirror photograph." width="750" height="1050" loading="lazy" /><figcaption>Rushil in Seattle</figcaption></figure>
+    <figure className="human-portrait"><img src="/media/rushil-portrait.webp" alt="Rushil Choksi taking a mirror photograph." width="750" height="1050" loading="lazy" /><figcaption>{site.portraitCaption}</figcaption></figure>
     <div className="human-copy"><h2 id="human-title">Still<br />curious.</h2><p>{site.humanDetail}</p></div>
   </section>
 }
 
 function Exit() {
   return <footer className="scene exit" id="contact" data-scene="exit">
-    <div className="exit-head"><span>07 / Exit</span><span>Seattle, Washington</span></div>
+    <div className="exit-head"><span>07 / Exit</span><span>{site.location}</span></div>
     <p className="exit-question">Say<br /><i>hello.</i></p>
     <a className="exit-email" href={site.contact.href} target="_blank" rel="noreferrer">{site.contact.label} <span aria-hidden="true">↗</span></a>
     <div className="exit-bottom"><span>Rushil Choksi</span><nav aria-label="External profiles">{site.profiles.map((profile) => <a href={profile.href} target="_blank" rel="noreferrer" key={profile.label}>{profile.label} ↗</a>)}</nav><a href="#origin">Back to top ↑</a></div>

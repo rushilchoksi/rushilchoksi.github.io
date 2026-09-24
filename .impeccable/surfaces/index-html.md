@@ -19,7 +19,7 @@ Rushil is based in Seattle, Washington. Location is factual context, not decorat
 
 ## Proof and constraints
 
-Use only the current role and degree confirmed in the brief, historical project descriptions and links from the tracked site, and the four real article links. Keep confidential work high-level. Do not ship unverified metrics, fake case studies, fake imagery, or the in-progress mission-control framing. Preserve accessible semantics, reduced-motion behavior, ordinary scrolling, and GitHub Pages compatibility.
+Use the user-provided LinkedIn profile export dated September 23, 2026 for current role, location, aperture and Sony history, and USC research; use the tracked site for historical projects and four real article links. Keep confidential work high-level. Do not ship unverified metrics, fake case studies, fake imagery, or the in-progress mission-control framing. Preserve accessible semantics, reduced-motion behavior, ordinary scrolling, and GitHub Pages compatibility.
 
 ## Chosen direction
 
@@ -41,4 +41,4 @@ Registration Boundary: graphite and bone planes are divided by a movable vermili
 
 ## Unresolved content
 
-No current resume, Aurelian case-study detail, current employment dates, verified professional metrics, or article publication dates are present. The shipped design must remain strong without those claims.
+A user-provided profile export now confirms current employment and previous-role dates, but does not supply publishable Aurelian or aperture case-study detail or media. Article publication dates remain unverified. The shipped design must remain strong without those claims.

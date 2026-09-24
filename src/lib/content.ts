@@ -20,13 +20,14 @@ export const site = {
   role: 'Software Security Engineer',
   company: 'Aurelian',
   location: 'Seattle, Washington',
+  portraitCaption: 'Rushil, off the clock',
   focus: ['Security', 'Infrastructure', 'Software'],
   introduction:
-    'Software security engineer at Aurelian, working close to infrastructure and the software built on it.',
-  currentLead: 'I work on what systems',
-  currentEmphasis: 'allow.',
+    'Software security engineer at Aurelian, working on infrastructure and reliability for real-time AI systems in public safety.',
+  currentLead: 'I like figuring out how systems',
+  currentEmphasis: 'break.',
   currentDetail:
-    'My work sits close to infrastructure, the software built on it, and the boundaries between them.',
+    'I work on infrastructure and reliability for real-time AI systems in public safety.',
   humanDetail:
     "I'm based in Seattle. Outside work, I write about security, build small experiments, and keep following the threads between systems and AI.",
   contact: {
@@ -43,9 +44,9 @@ export const site = {
 export const selectedProjects: Project[] = [
   {
     title: 'Space Launch Window Detection',
-    context: 'US Space Force / SDA',
+    context: 'U.S. Space Force / USC',
     description:
-      'A prediction model for identifying launch windows for stealth space launches using unclassified data. The underlying work is private, so the public record stops there.',
+      'For a USC project sponsored by the U.S. Space Force, I designed serving infrastructure for launch-detection inference on streaming satellite data. The project was an MEPC finalist.',
     image: '/media/space-launch.webp',
     imageAlt: 'USSPACECOM operations room with wall-sized mission displays.',
   },
@@ -99,19 +100,24 @@ export const chronology = [
     detail: 'Software Security Engineer',
   },
   {
-    marker: 'Education',
-    title: 'University of Southern California',
-    detail: 'MS, Cyber Security Engineering',
+    marker: '2025–26',
+    title: 'aperture',
+    detail: 'Founding Engineer · backend, infrastructure, reliability',
   },
   {
-    marker: 'Earlier',
+    marker: '2024–25',
     title: 'Sony',
-    detail: 'Security Architect Intern',
+    detail: 'Security Architect Intern · cloud security',
   },
   {
-    marker: 'Earlier',
+    marker: '2023–25',
+    title: 'USC',
+    detail: 'MS, Cyber Security Engineering · research at ICT and ISI',
+  },
+  {
+    marker: '2020–23',
     title: 'técrave',
-    detail: 'Co-founder and CTO',
+    detail: 'Co-founder & CTO',
   },
 ] as const
 

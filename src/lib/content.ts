@@ -20,8 +20,19 @@ export const site = {
   role: 'Software Security Engineer',
   company: 'Aurelian',
   location: 'Seattle, Washington',
+  focus: ['Security', 'Infrastructure', 'Software'],
   introduction:
-    'Software security engineer at Aurelian, working across infrastructure, systems, and AI.',
+    'Software security engineer at Aurelian, working close to infrastructure and the software built on it.',
+  currentLead: 'I work on what systems',
+  currentEmphasis: 'allow.',
+  currentDetail:
+    'My work sits close to infrastructure, the software built on it, and the boundaries between them.',
+  humanDetail:
+    "I'm based in Seattle. Outside work, I write about security, build small experiments, and keep following the threads between systems and AI.",
+  contact: {
+    label: 'Find me on LinkedIn',
+    href: 'https://www.linkedin.com/in/rushil-choksi',
+  },
   profiles: [
     { label: 'GitHub', href: 'https://github.com/rushilchoksi' },
     { label: 'LinkedIn', href: 'https://www.linkedin.com/in/rushil-choksi' },
@@ -46,6 +57,9 @@ export const selectedProjects: Project[] = [
     image: '/media/secure-auth.webp',
     imageAlt: 'An operator working at a multi-screen workstation.',
   },
+]
+
+export const archivedProjects: Project[] = [
   {
     title: 'Solar Splash',
     context: 'Side project',
@@ -56,9 +70,6 @@ export const selectedProjects: Project[] = [
     href: 'https://github.com/rushilchoksi/Solar-Splash',
     linkLabel: 'View repository',
   },
-]
-
-export const archivedProjects: Project[] = [
   {
     title: 'RNN Password Generator',
     context: 'Academic project',

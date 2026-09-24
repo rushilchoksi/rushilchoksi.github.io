@@ -10,6 +10,7 @@ const generatedFiles = [
   'favicon.svg',
   'index.html',
   'og.png',
+  'og-v2.png',
   'robots.txt',
   'sitemap.xml',
 ]

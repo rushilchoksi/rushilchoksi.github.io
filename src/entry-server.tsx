@@ -1,9 +1,9 @@
 import { StrictMode } from 'react'
-import { renderToStaticMarkup } from 'react-dom/server'
+import { renderToString } from 'react-dom/server'
 import App from './App'
 
 export function render() {
-  return renderToStaticMarkup(
+  return renderToString(
     <StrictMode>
       <App />
     </StrictMode>,

@@ -18,7 +18,7 @@ Success means a first-time visitor can identify Rushil, his current position, an
 
 ## Positioning
 
-Rushil is a software security engineer whose work spans infrastructure, security, systems, software engineering, and AI. The site should show that range through selected real work rather than through a generic capability list or a conventional resume presentation.
+Rushil is a software security engineer. His professional hierarchy is security, then infrastructure, then software engineering. AI remains a thread in his work and curiosity, not an equal headline category. The site should show that range through selected real work rather than a generic capability list.
 
 ## Operating Context
 
@@ -38,8 +38,9 @@ The site is a public, crawlable portfolio hosted from this repository and intend
 
 - The subject name is Rushil Choksi and it must be unmistakable in the first viewport.
 - Voice is concise, technically literate, human, and direct. It avoids buzzwords, corporate polish, self-congratulation, and generic calls to action.
-- The requested identity is quiet technical luxury, editorial design, and systems engineering. It must imply engineering sophistication without cybersecurity cliches.
-- The visual system uses disciplined typography, off-black and off-white surfaces, one restrained accent, very few containers, and one subtle recurring trace or routing motif.
+- The requested identity is cinematic, technically precise, and editorial. It must imply engineering sophistication without cybersecurity cliches.
+- A visibility boundary is the governing interaction. It changes which layer of information is available and persists through the opening work scenes.
+- The visual system uses disciplined typography, graphite and bone surfaces, one restrained accent, and very few containers.
 - The experience must not resemble a hacker terminal, cybersecurity theme, SaaS landing page, resume template, dashboard, component-library demo, or generic developer portfolio.
 
 ## Evidence on Hand

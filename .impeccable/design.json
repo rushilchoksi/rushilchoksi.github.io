@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-24T01:18:59Z",
+  "title": "Design System: Rushil Choksi Portfolio",
+  "extensions": {
+    "colorMeta": {
+      "vermilion": {
+        "role": "primary",
+        "displayName": "Vermilion Signal",
+        "tonalRamp": ["oklch(15% 0.07 33)", "oklch(26% 0.12 33)", "oklch(38% 0.16 33)", "oklch(50% 0.19 33)", "oklch(62% 0.19 33)", "oklch(74% 0.14 33)", "oklch(86% 0.08 33)", "oklch(95% 0.025 33)"]
+      },
+      "vermilion-ink": {
+        "role": "primary",
+        "displayName": "Vermilion Ink",
+        "tonalRamp": ["oklch(15% 0.07 33)", "oklch(26% 0.12 33)", "oklch(38% 0.16 33)", "oklch(50% 0.19 33)", "oklch(62% 0.19 33)", "oklch(74% 0.14 33)", "oklch(86% 0.08 33)", "oklch(95% 0.025 33)"]
+      },
+      "graphite": {
+        "role": "neutral",
+        "displayName": "Graphite",
+        "tonalRamp": ["oklch(15% 0.006 150)", "oklch(26% 0.006 150)", "oklch(38% 0.006 150)", "oklch(50% 0.006 150)", "oklch(62% 0.006 150)", "oklch(74% 0.006 150)", "oklch(86% 0.006 150)", "oklch(95% 0.006 150)"]
+      },
+      "coal": {
+        "role": "neutral",
+        "displayName": "Coal",
+        "tonalRamp": ["oklch(15% 0.008 150)", "oklch(26% 0.008 150)", "oklch(38% 0.008 150)", "oklch(50% 0.008 150)", "oklch(62% 0.008 150)", "oklch(74% 0.008 150)", "oklch(86% 0.008 150)", "oklch(95% 0.008 150)"]
+      },
+      "bone": {
+        "role": "neutral",
+        "displayName": "Bone",
+        "tonalRamp": ["oklch(15% 0.012 95)", "oklch(26% 0.012 95)", "oklch(38% 0.012 95)", "oklch(50% 0.012 95)", "oklch(62% 0.012 95)", "oklch(74% 0.012 95)", "oklch(86% 0.012 95)", "oklch(95% 0.012 95)"]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "tonalRamp": ["oklch(15% 0.012 95)", "oklch(26% 0.012 95)", "oklch(38% 0.012 95)", "oklch(50% 0.012 95)", "oklch(62% 0.012 95)", "oklch(74% 0.012 95)", "oklch(86% 0.012 95)", "oklch(95% 0.012 95)"]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Rule Gray",
+        "tonalRamp": ["oklch(15% 0.01 125)", "oklch(26% 0.01 125)", "oklch(38% 0.01 125)", "oklch(50% 0.01 125)", "oklch(62% 0.01 125)", "oklch(74% 0.01 125)", "oklch(86% 0.01 125)", "oklch(95% 0.01 125)"]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted Gray",
+        "tonalRamp": ["oklch(15% 0.012 135)", "oklch(26% 0.012 135)", "oklch(38% 0.012 135)", "oklch(50% 0.012 135)", "oklch(62% 0.012 135)", "oklch(74% 0.012 135)", "oklch(86% 0.012 135)", "oklch(95% 0.012 135)"]
+      },
+      "provenance": {
+        "role": "neutral",
+        "displayName": "Provenance Stone",
+        "tonalRamp": ["oklch(15% 0.012 105)", "oklch(26% 0.012 105)", "oklch(38% 0.012 105)", "oklch(50% 0.012 105)", "oklch(62% 0.012 105)", "oklch(74% 0.012 105)", "oklch(86% 0.012 105)", "oklch(95% 0.012 105)"]
+      },
+      "writing": {
+        "role": "neutral",
+        "displayName": "Writing Graphite",
+        "tonalRamp": ["oklch(15% 0.01 150)", "oklch(26% 0.01 150)", "oklch(38% 0.01 150)", "oklch(50% 0.01 150)", "oklch(62% 0.01 150)", "oklch(74% 0.01 150)", "oklch(86% 0.01 150)", "oklch(95% 0.01 150)"]
+      },
+      "human": {
+        "role": "neutral",
+        "displayName": "Human Bone",
+        "tonalRamp": ["oklch(15% 0.016 90)", "oklch(26% 0.016 90)", "oklch(38% 0.016 90)", "oklch(50% 0.016 90)", "oklch(62% 0.016 90)", "oklch(74% 0.016 90)", "oklch(86% 0.016 90)", "oklch(95% 0.016 90)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Identity Display", "purpose": "Oversized two-line name on aligned color planes." },
+      "headline": { "displayName": "Structural Headline", "purpose": "Current-work statement and related chapter headlines." },
+      "serif-accent": { "displayName": "Serif Accent", "purpose": "Italic second name line and brief human inflections in later headlines." },
+      "body": { "displayName": "Body", "purpose": "Short descriptions and public project disclosures." },
+      "label": { "displayName": "Information Label", "purpose": "Navigation, scene numbering, control labels, provenance, and captions." }
+    },
+    "shadows": [],
+    "motion": [
+      { "name": "ease-out", "value": "cubic-bezier(.16, 1, .3, 1)", "purpose": "Navigation underline and link spatial feedback." },
+      { "name": "ease-in-out", "value": "cubic-bezier(.76, 0, .24, 1)", "purpose": "Defined in the root stylesheet for controlled spatial transitions." },
+      { "name": "navigation-underline", "value": "220ms cubic-bezier(.16, 1, .3, 1)", "purpose": "Underline grows from the link edge on hover or focus." },
+      { "name": "writing-state", "value": "380ms cubic-bezier(.16, 1, .3, 1)", "purpose": "Article-row padding and background shift." },
+      { "name": "scene-edge-opacity", "value": "360ms ease", "purpose": "Boundary line recedes after the selected-work scenes." },
+      { "name": "view-timeline", "value": "linear, entry/exit ranges", "purpose": "Identity release, project title and media travel, and portrait settling where supported." },
+      { "name": "reduced-motion", "value": "0.01ms animation and transition; auto scroll behavior", "purpose": "Keep every scene usable without motion." }
+    ],
+    "breakpoints": [
+      { "name": "stacked-current", "value": "1000px" },
+      { "name": "mobile-composition", "value": "700px" },
+      { "name": "narrow-phone", "value": "390px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Edge Navigation",
+      "kind": "nav",
+      "refersTo": "edge-navigation",
+      "description": "Fixed direct anchors and a contact link over changing scene fields.",
+      "html": "<header class=\"ds-edge-nav\"><a class=\"ds-mark\" href=\"#origin\">R<span>/</span>C</a><nav aria-label=\"Main navigation\"><a href=\"#current\">Now</a><a href=\"#work\">Work</a><a href=\"#history\">History</a><a href=\"#writing\">Writing</a></nav><a class=\"ds-contact\" href=\"#contact\">Contact <span>↗</span></a></header>",
+      "css": ".ds-edge-nav{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:1rem;padding:0 clamp(1rem,3.5vw,4.5rem);height:4.4rem;background:var(--ink,#111312);color:var(--bone,#edeae1);font:600 .67rem 'Martian Mono Variable',monospace;text-transform:uppercase;letter-spacing:.035em}.ds-edge-nav nav{display:flex;gap:clamp(.35rem,1.5vw,2rem)}.ds-edge-nav a{position:relative;display:inline-flex;min-width:2.75rem;min-height:2.75rem;align-items:center;color:inherit;text-decoration:none}.ds-edge-nav nav a{padding-inline:.4rem}.ds-edge-nav nav a::after{position:absolute;right:.4rem;bottom:.45rem;left:.4rem;height:1px;content:'';background:var(--signal,#e95432);transform:scaleX(0);transform-origin:right;transition:transform 220ms cubic-bezier(.16,1,.3,1)}.ds-edge-nav nav a:hover::after,.ds-edge-nav nav a:focus-visible::after{transform:scaleX(1);transform-origin:left}.ds-mark{font:700 1.3rem 'Geologica Variable',sans-serif;letter-spacing:-.08em}.ds-mark span,.ds-contact span{color:var(--signal,#e95432)}.ds-contact{justify-self:end}.ds-edge-nav a:focus-visible{outline:2px solid var(--signal,#e95432);outline-offset:5px}@media(max-width:700px){.ds-edge-nav{grid-template-columns:auto 1fr auto;gap:.5rem;padding-inline:1rem;height:3.6rem}.ds-edge-nav nav{justify-self:center;gap:.1rem}.ds-edge-nav nav a{min-width:2.4rem;font-size:.52rem}.ds-edge-nav nav a:nth-child(3){display:none}.ds-contact{font-size:.52rem}.ds-contact span{display:none}}@media(max-width:390px){.ds-edge-nav nav a:nth-child(4){display:none}}"
+    },
+    {
+      "name": "Visibility Boundary Control",
+      "kind": "input",
+      "refersTo": "boundary-control",
+      "description": "Labeled range input with a line track and square vermilion thumb; keyboard and touch can set the opening boundary.",
+      "html": "<div class=\"ds-boundary-control\"><label for=\"ds-boundary-range\">Visibility boundary</label><input id=\"ds-boundary-range\" type=\"range\" min=\"8\" max=\"92\" value=\"62\" aria-label=\"Move the visibility boundary\"><span>Drag / arrow keys</span></div>",
+      "css": ".ds-boundary-control{position:relative;width:min(19rem,29vw);min-width:7.6rem;background:var(--ink,#111312);color:var(--bone,#edeae1);font:600 .56rem/1.4 'Martian Mono Variable',monospace;letter-spacing:.04em;text-transform:uppercase}.ds-boundary-control span{float:right;opacity:.65}.ds-boundary-control input{display:block;width:100%;height:2.75rem;margin:.15rem 0 0;appearance:none;background:transparent;cursor:ew-resize}.ds-boundary-control input::-webkit-slider-runnable-track{height:1px;background:currentColor}.ds-boundary-control input::-moz-range-track{height:1px;background:currentColor}.ds-boundary-control input::-webkit-slider-thumb{width:12px;height:12px;margin-top:-6px;appearance:none;border:1px solid currentColor;border-radius:0;background:var(--signal,#e95432)}.ds-boundary-control input::-moz-range-thumb{width:12px;height:12px;border:1px solid currentColor;border-radius:0;background:var(--signal,#e95432)}.ds-boundary-control input:focus-visible{outline:2px solid var(--signal,#e95432);outline-offset:5px}@media(max-width:700px){.ds-boundary-control{width:7.6rem;font-size:.47rem}.ds-boundary-control span{display:none}}"
+    },
+    {
+      "name": "Registration Identity",
+      "kind": "custom",
+      "description": "Two synchronized, clipped name planes demonstrate the governing visibility rule.",
+      "html": "<section class=\"ds-identity\"><h1 class=\"ds-accessible-name\">Rushil Choksi</h1><div class=\"ds-plane ds-plane-bone\" aria-hidden=\"true\"><div class=\"ds-name\"><span>RUSHIL</span><em>CHOKSI</em></div></div><div class=\"ds-plane ds-plane-graphite\" aria-hidden=\"true\"><div class=\"ds-name\"><span>RUSHIL</span><em>CHOKSI</em></div></div><span class=\"ds-registration-edge\" aria-hidden=\"true\"></span></section>",
+      "css": ".ds-identity{--ds-boundary-x:.62;position:relative;min-height:24rem;overflow:hidden;background:var(--bone,#edeae1);color:var(--ink,#111312)}.ds-accessible-name{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}.ds-plane{position:absolute;inset:0}.ds-plane-bone{background:var(--bone,#edeae1);color:var(--ink,#111312)}.ds-plane-graphite{background:var(--ink,#111312);color:var(--bone,#edeae1);clip-path:inset(0 calc((1 - var(--ds-boundary-x))*100%) 0 0)}.ds-name{position:absolute;top:4rem;right:3%;left:3%;display:flex;flex-direction:column;font:740 clamp(5rem,17vw,12rem)/.73 'Geologica Variable',sans-serif;letter-spacing:-.092em;white-space:nowrap}.ds-name em{align-self:flex-end;font:italic 400 1.12em/.65 'Instrument Serif',serif;letter-spacing:-.055em}.ds-registration-edge{position:absolute;top:0;bottom:0;left:calc(var(--ds-boundary-x)*100%);width:1px;background:var(--signal,#e95432)}"
+    },
+    {
+      "name": "Selected Project Scene",
+      "kind": "custom",
+      "refersTo": "project-disclosure",
+      "description": "Large title, grayscale media aperture, and ruled public disclosure without a card shell.",
+      "html": "<section class=\"ds-project\"><div class=\"ds-project-head\"><span>02 / Selected work</span><span>Academic project</span></div><span class=\"ds-project-number\">01</span><h2 data-title=\"Secure Authentication Architecture\">Secure Authentication Architecture</h2><figure class=\"ds-project-media\"><div class=\"ds-project-image\"></div><figcaption>Academic project</figcaption></figure><div class=\"ds-project-disclosure\"><span>Visible / public</span><p>A six-layer authentication architecture designed around defense in depth.</p></div><span class=\"ds-project-edge\" aria-hidden=\"true\"></span></section>",
+      "css": ".ds-project{--ds-boundary-x:.62;position:relative;min-height:34rem;overflow:hidden;padding:3rem clamp(1rem,3.5vw,4.5rem);background:var(--bone,#edeae1);color:var(--ink,#111312);font-family:'Geologica Variable',sans-serif}.ds-project-head{display:flex;justify-content:space-between;gap:1rem;padding-bottom:.8rem;border-bottom:1px solid currentColor;font:600 .61rem/1.4 'Martian Mono Variable',monospace;text-transform:uppercase}.ds-project-number{position:absolute;top:7rem;left:clamp(1rem,3.5vw,4.5rem);color:var(--signal-ink,#872713);font:500 1.5rem 'Martian Mono Variable',monospace}.ds-project h2{position:absolute;z-index:2;top:10rem;left:clamp(1rem,3.5vw,4.5rem);width:11ch;margin:0;font-size:clamp(3.7rem,9vw,7rem);font-weight:735;line-height:.75;letter-spacing:-.085em}.ds-project h2::after{position:absolute;inset:0;content:attr(data-title);color:var(--bone,#edeae1);clip-path:inset(0 0 0 calc(var(--ds-boundary-x)*100vw - clamp(1rem,3.5vw,4.5rem)))}.ds-project-media{position:absolute;top:9rem;right:0;bottom:6rem;left:41%;margin:0;overflow:hidden;background:var(--ink,#111312)}.ds-project-image{position:absolute;inset:0;background:#777b74;filter:grayscale(1)}.ds-project-image::after{position:absolute;inset:0;content:'';background:var(--bone,#edeae1);clip-path:inset(0 calc((1 - var(--ds-boundary-x))*100vw) 0 0)}.ds-project-media figcaption{position:absolute;right:1rem;bottom:1rem;padding:.4rem .55rem;background:var(--ink,#111312);color:var(--bone,#edeae1);font:500 .55rem 'Martian Mono Variable',monospace;text-transform:uppercase}.ds-project-disclosure{position:absolute;z-index:3;right:clamp(1rem,3.5vw,4.5rem);bottom:1rem;left:clamp(1rem,3.5vw,4.5rem);display:grid;grid-template-columns:.35fr .65fr;gap:2rem;padding-top:1rem;border-top:1px solid var(--ink,#111312);background:var(--bone,#edeae1)}.ds-project-disclosure span{color:var(--signal-ink,#872713);font:600 .6rem 'Martian Mono Variable',monospace;text-transform:uppercase}.ds-project-disclosure p{margin:0;font-size:1rem;line-height:1.42}.ds-project-edge{position:absolute;top:9rem;bottom:6rem;left:calc(var(--ds-boundary-x)*100%);width:1px;background:var(--signal,#e95432)}@media(max-width:700px){.ds-project h2{top:7rem;left:1rem;width:calc(100% - 2rem);font-size:clamp(3rem,14vw,5rem)}.ds-project h2::after{content:none}.ds-project-media{top:17rem;bottom:8rem;left:10%}.ds-project-edge{top:17rem;bottom:8rem}.ds-project-disclosure{right:1rem;left:1rem;grid-template-columns:1fr;gap:.5rem}}"
+    },
+    {
+      "name": "Provenance Record",
+      "kind": "custom",
+      "description": "Indexed history row divided by hairlines and a vermilion registration rule.",
+      "html": "<div class=\"ds-provenance\"><span class=\"ds-provenance-index\">01</span><div><strong>Aurelian</strong><span>Software Security Engineer</span></div><span class=\"ds-provenance-marker\">Now</span></div>",
+      "css": ".ds-provenance{display:grid;grid-template-columns:7% 1fr 7rem;gap:2rem;align-items:center;min-height:7.4rem;padding-inline:1rem;border-top:1px solid var(--ink,#111312);border-bottom:1px solid rgba(17,19,18,.48);background:#c6c7bd;color:var(--ink,#111312);font-family:'Geologica Variable',sans-serif}.ds-provenance-index{color:var(--signal,#e95432);font:600 .66rem 'Martian Mono Variable',monospace}.ds-provenance>div{display:flex;flex-direction:column;gap:.3rem}.ds-provenance strong{font-size:clamp(1.5rem,2.9vw,3.4rem);font-weight:620;letter-spacing:-.055em}.ds-provenance>div span{font-size:.9rem}.ds-provenance-marker{justify-self:end;align-self:start;padding-top:1rem;font:500 .58rem 'Martian Mono Variable',monospace;text-transform:uppercase}@media(max-width:700px){.ds-provenance{grid-template-columns:2.6rem 1fr;gap:.9rem;min-height:6.4rem}.ds-provenance-marker{display:none}}"
+    },
+    {
+      "name": "Writing Record",
+      "kind": "custom",
+      "refersTo": "writing-record",
+      "description": "Full-width article link with title, provenance, and a vermilion arrow.",
+      "html": "<a class=\"ds-writing-record\" href=\"#article\"><span class=\"ds-writing-index\">01</span><span class=\"ds-writing-title\">Why Security Monitoring &amp; UEBA?</span><span class=\"ds-writing-topic\">Security monitoring<br>Medium</span><span class=\"ds-writing-arrow\">↗</span></a>",
+      "css": ".ds-writing-record{display:grid;grid-template-columns:6vw minmax(0,1fr) 11rem 2rem;gap:2vw;align-items:center;min-height:8.6rem;padding:1.2rem 0;border-top:1px solid #777b74;border-bottom:1px solid #777b74;background:var(--writing,#202423);color:var(--bone,#edeae1);font-family:'Geologica Variable',sans-serif;text-decoration:none;transition:padding 380ms cubic-bezier(.16,1,.3,1),background 380ms cubic-bezier(.16,1,.3,1)}.ds-writing-index,.ds-writing-topic{color:#a5a8a0;font:500 .58rem/1.55 'Martian Mono Variable',monospace;text-transform:uppercase}.ds-writing-title{font-size:clamp(1.6rem,3.5vw,4.3rem);font-weight:580;letter-spacing:-.052em;line-height:1.03;transition:transform 380ms cubic-bezier(.16,1,.3,1)}.ds-writing-arrow{justify-self:end;align-self:start;color:var(--signal,#e95432);font-size:1.5rem}.ds-writing-record:hover,.ds-writing-record:focus-visible{padding-inline:1.3rem;background:#2e3330}.ds-writing-record:hover .ds-writing-title{transform:translateX(.5rem)}.ds-writing-record:focus-visible{outline:2px solid var(--signal,#e95432);outline-offset:5px}@media(max-width:700px){.ds-writing-record{grid-template-columns:2rem 1fr 1rem;gap:.7rem;min-height:7.4rem}.ds-writing-title{font-size:clamp(1.3rem,5.6vw,2.4rem)}.ds-writing-topic{display:none}}"
+    },
+    {
+      "name": "Portrait Figure",
+      "kind": "custom",
+      "description": "Large, slightly rotated personal-image field and exact mono location caption.",
+      "html": "<figure class=\"ds-portrait\"><div class=\"ds-portrait-image\" role=\"img\" aria-label=\"Portrait of Rushil Choksi\"></div><figcaption>Rushil in Seattle</figcaption></figure>",
+      "css": ".ds-portrait{position:relative;width:min(36vw,39rem);height:min(70svh,53rem);min-height:22rem;margin:0 0 2rem;transform:rotate(-2deg);background:#a3a59d;color:var(--ink,#111312)}.ds-portrait-image{width:100%;height:100%;background:#a3a59d}.ds-portrait figcaption{position:absolute;bottom:-2rem;left:0;font:500 .58rem 'Martian Mono Variable',monospace;text-transform:uppercase}@media(max-width:700px){.ds-portrait{width:min(72vw,25rem);height:52svh;margin-left:6vw}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Registration Boundary",
+    "overview": "The site behaves like a security-print registration plate. Two aligned graphite and bone planes hold Rushil's name, and a movable vermilion edge determines which layer is visible. That same boundary cuts the current-work scene and alters the disclosure of selected-work images. It gives the security-first subject a visible rule instead of decorating the page with security symbols.\n\nThe opening is cinematic and architectural; the later scenes become a calmer sequence of provenance, writing, a personal portrait, and contact. Oversized type, quiet surfaces, precise rules, and sparse metadata carry the experience. Content and links remain readable and usable without pointer movement or animation.",
+    "keyCharacteristics": [
+      "Two synchronized name planes divided by one movable vertical boundary.",
+      "Graphite, coal, bone, and paper fields with a restrained vermilion signal.",
+      "Geologica structure, italic Instrument Serif counterpoint, and Martian Mono metadata.",
+      "Sticky full-viewport scenes for current work and two selected projects; flat records afterward.",
+      "Square media, fine rules, visible controls, and no ambient elevation."
+    ],
+    "rules": [
+      { "name": "The Visible Edge Rule", "body": "Vermilion should mark an edge, state, coordinate, or action. Keep large reading planes neutral.", "section": "colors" },
+      { "name": "The Chapter Field Rule", "body": "Change the whole scene's tone when the story changes; do not parcel content into floating cards.", "section": "colors" },
+      { "name": "The Two-Voice Rule", "body": "Geologica establishes structure; Instrument Serif interrupts it briefly for a human inflection. Martian Mono locates and labels information.", "section": "typography" },
+      { "name": "The Short Statement Rule", "body": "Oversized headings are concise compositional objects. Explanatory detail sits in nearby body copy.", "section": "typography" },
+      { "name": "The Controlled Reveal Rule", "body": "One boundary position governs the opening states; do not add unrelated reveal mechanisms to individual components.", "section": "layout" },
+      { "name": "The Flat Registration Rule", "body": "Depth comes from aligned layers and controlled visibility, not glass, glow, or floating panels.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep the boundary tied to what is visible in the identity, current-work, and selected-project scenes.",
+      "Do preserve a labeled range input and keyboard, touch, and reduced-motion access to the opening states.",
+      "Do use Geologica for structural statements, Instrument Serif for brief italic contrast, and Martian Mono for exact metadata.",
+      "Do keep public project descriptions, provenance, and external destinations readable without animation.",
+      "Do compose each chapter as a distinct flat field with square media and fine structural rules."
+    ],
+    "donts": [
+      "Don't return to the prior decorative routed-line motif or the index-plus-sticky-preview work layout.",
+      "Don't turn the vermilion edge into repeated ornament, buttons, or broad colored panels.",
+      "Don't introduce card stacks, pills, gradients, glass, glows, or ambient shadows.",
+      "Don't add hacker-terminal or cybersecurity-symbol imagery in place of the actual visibility rule.",
+      "Don't imply that confidential projects have public details or destinations that the content does not provide."
+    ]
+  }
+}

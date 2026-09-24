@@ -1,243 +1,207 @@
 ---
 name: "Rushil Choksi Portfolio"
-description: "A quiet editorial system for presenting security and infrastructure work with proof-first clarity."
+description: "A registration boundary reveals the person, the work, and the limits of what can be shown."
 colors:
-  surface: "#eef0ed"
-  surface-alt: "#e4e7e2"
-  ink: "#171915"
-  muted: "#636861"
-  rule: "#c8ccc5"
-  accent: "#e9502b"
-  accent-ink: "#a82b0e"
-  focus: "#c93a17"
-  dark-surface: "#111310"
-  dark-surface-alt: "#181b17"
-  dark-ink: "#eceee9"
-  dark-muted: "#a7aca4"
-  dark-rule: "#373b35"
-  dark-accent: "#ff6b45"
-  dark-accent-ink: "#ff8a6c"
-  dark-focus: "#ff8a6c"
+  vermilion: "#e95432"
+  vermilion-ink: "#872713"
+  graphite: "#111312"
+  coal: "#171a19"
+  bone: "#edeae1"
+  paper: "#e4e1d8"
+  rule: "#b7b8b0"
+  muted: "#7a7e78"
+  provenance: "#c6c7bd"
+  writing: "#202423"
+  human: "#ddd8cc"
 typography:
   display:
-    fontFamily: "Schibsted Grotesk Variable, sans-serif"
-    fontSize: "clamp(3.25rem, 7.4vw, 6rem)"
-    fontWeight: 640
-    lineHeight: 0.84
-    letterSpacing: "-0.04em"
+    fontFamily: "Geologica Variable, sans-serif"
+    fontSize: "clamp(6.8rem, 17.6vw, 25rem)"
+    fontWeight: 740
+    lineHeight: 0.73
+    letterSpacing: "-0.092em"
+    fontVariation: "'wght' 740, 'SHRP' 100, 'CRSV' 0"
   headline:
-    fontFamily: "Schibsted Grotesk Variable, sans-serif"
-    fontSize: "clamp(3rem, 6.2vw, 6rem)"
-    fontWeight: 640
-    lineHeight: 0.95
-    letterSpacing: "-0.04em"
-  title:
-    fontFamily: "Schibsted Grotesk Variable, sans-serif"
-    fontSize: "clamp(2rem, 3.8vw, 4.5rem)"
-    fontWeight: 570
-    lineHeight: 0.98
-    letterSpacing: "-0.04em"
+    fontFamily: "Geologica Variable, sans-serif"
+    fontSize: "clamp(5.5rem, 9.2vw, 11rem)"
+    fontWeight: 710
+    lineHeight: 0.8
+    letterSpacing: "-0.085em"
+  serif-accent:
+    fontFamily: "Instrument Serif, serif"
+    fontWeight: 400
   body:
-    fontFamily: "Schibsted Grotesk Variable, sans-serif"
-    fontSize: "clamp(1rem, 0.92rem + 0.2vw, 1.125rem)"
-    fontWeight: 440
-    lineHeight: 1.55
+    fontFamily: "Geologica Variable, sans-serif"
+    fontSize: "clamp(0.95rem, 1.12vw, 1.13rem)"
+    lineHeight: 1.48
   label:
     fontFamily: "Martian Mono Variable, monospace"
-    fontSize: "0.72rem"
-    fontWeight: 440
-    lineHeight: 1.55
-    letterSpacing: "0.02em"
+    fontSize: "0.61rem"
+    fontWeight: 600
+    lineHeight: 1.4
+    letterSpacing: "0.07em"
 rounded:
   square: "0"
-  focus: "2px"
-  route-turn: "3.5rem"
 spacing:
-  space-1: "0.5rem"
-  space-2: "0.75rem"
-  space-3: "1rem"
-  space-4: "1.5rem"
-  space-5: "2rem"
-  space-6: "3rem"
-  space-7: "4.5rem"
-  space-8: "7rem"
-  space-9: "10rem"
-  page-gutter: "clamp(1.25rem, 4.6vw, 5rem)"
+  page-gutter: "clamp(1rem, 3.5vw, 4.5rem)"
 components:
-  navigation-link:
-    textColor: "{colors.ink}"
-    typography: "{typography.body}"
-    rounded: "{rounded.square}"
-    height: "2.75rem"
-  skip-link:
-    backgroundColor: "{colors.ink}"
-    textColor: "{colors.surface}"
+  edge-navigation:
+    textColor: "{colors.bone}"
     typography: "{typography.label}"
+    height: "4.4rem"
+  boundary-control:
+    textColor: "{colors.bone}"
+    typography: "{typography.label}"
+    width: "min(19rem, 29vw)"
     rounded: "{rounded.square}"
-    padding: "0.65rem 0.85rem"
-  project-row:
-    backgroundColor: "{colors.surface}"
-    textColor: "{colors.ink}"
+  project-disclosure:
+    backgroundColor: "{colors.bone}"
+    textColor: "{colors.graphite}"
     rounded: "{rounded.square}"
-    padding: "clamp(1.5rem, 3vw, 2.75rem) 0"
-  project-preview:
-    backgroundColor: "{colors.surface-alt}"
+    padding: "1rem 0 0"
+  writing-record:
+    backgroundColor: "{colors.writing}"
+    textColor: "{colors.bone}"
     rounded: "{rounded.square}"
-    height: "min(70vh, 46rem)"
-    width: "100%"
-  writing-row:
-    backgroundColor: "{colors.surface-alt}"
-    textColor: "{colors.ink}"
+    height: "8.6rem"
+    padding: "1.2rem 0"
+  writing-record-hover:
+    backgroundColor: "#2e3330"
+    textColor: "{colors.bone}"
     rounded: "{rounded.square}"
-    padding: "2rem 0"
-    height: "8.5rem"
-  portrait-media:
-    backgroundColor: "{colors.surface-alt}"
-    rounded: "{rounded.square}"
-    width: "100%"
 ---
 
 # Design System: Rushil Choksi Portfolio
 
 ## Overview
 
-**Creative North Star: "Engineering Change Proof"**
+**Creative North Star: "Registration Boundary"**
 
-This system reads like an engineer's marked-up change record: sparse, legible, and organized by evidence. Cool paper surfaces, graphite type, structural rules, and one safety-orange route create quiet technical luxury without turning the portfolio into a terminal, dashboard, or cybersecurity costume.
+The site behaves like a security-print registration plate. Two aligned graphite and bone planes hold Rushil's name, and a movable vermilion edge determines which layer is visible. That same boundary cuts the current-work scene and alters the disclosure of selected-work images. It gives the security-first subject a visible rule instead of decorating the page with security symbols.
 
-Typography and composition carry the identity. Large sans-serif statements establish authorship; mono metadata supplies factual precision; square media and flat tonal fields keep the work credible. Motion is exact and brief, limited to revealing hierarchy, tracing a route, and confirming which artifact is active.
+The opening is cinematic and architectural; the later scenes become a calmer sequence of provenance, writing, a personal portrait, and contact. Oversized type, quiet surfaces, precise rules, and sparse metadata carry the experience. Content and links remain readable and usable without pointer movement or animation.
 
 **Key Characteristics:**
 
-- Cool off-white and graphite surfaces with a single safety-orange route.
-- Wide editorial type contrasted with compact mono metadata.
-- Sparse rules, square media, and open composition instead of cards.
-- Precise, reduced-motion-safe feedback tied to reading and navigation.
-- One recurring routed-line signature, used structurally rather than decoratively.
+- Two synchronized name planes divided by one movable vertical boundary.
+- Graphite, coal, bone, and paper fields with a restrained vermilion signal.
+- Geologica structure, italic Instrument Serif counterpoint, and Martian Mono metadata.
+- Sticky full-viewport scenes for current work and two selected projects; flat records afterward.
+- Square media, fine rules, visible controls, and no ambient elevation.
 
 ## Colors
 
-The palette behaves like cool drafting paper marked once in safety orange, with an equivalent graphite-and-ember dark scheme.
+One warm vermilion signal marks the registration edge, indices, arrows, focus outlines, and selected serif emphasis. Graphite and bone alternate as large fields; other neutrals distinguish chapters rather than forming a card palette.
 
 ### Primary
 
-- **Safety Orange** (`{colors.accent}`): the single route trace, selected text, link underline, and media-corner signal.
-- **Deep Route Orange** (`{colors.accent-ink}`): active titles where the bright accent would not provide enough reading contrast.
-- **Focus Route** (`{colors.focus}`): visible keyboard outlines only.
+- **Vermilion** (`{colors.vermilion}`): the moving boundary and project aperture, control thumb, structural record line, selection, focus, and small navigational signals. It is rarely a large fill.
+- **Vermilion Ink** (`{colors.vermilion-ink}`): legible accent text for project numbers and public-disclosure labels on light project fields.
 
 ### Neutral
 
-- **Cool Paper** (`{colors.surface}`): the primary light canvas.
-- **Tonal Paper** (`{colors.surface-alt}`): the writing field and media placeholders.
-- **Graphite Ink** (`{colors.ink}`): primary text and decisive rules.
-- **Drafting Gray** (`{colors.muted}`): supporting copy and mono metadata.
-- **Hairline Gray** (`{colors.rule}`): section, row, and chronology dividers.
-- **Night Paper / Night Tonal Paper** (`{colors.dark-surface}`, `{colors.dark-surface-alt}`): dark-scheme canvases.
-- **Chalk Ink / Night Gray / Night Rule** (`{colors.dark-ink}`, `{colors.dark-muted}`, `{colors.dark-rule}`): dark-scheme text and structure.
-- **Night Safety Orange / Night Route / Night Focus** (`{colors.dark-accent}`, `{colors.dark-accent-ink}`, `{colors.dark-focus}`): dark-scheme accents with preserved contrast.
+- **Graphite** (`{colors.graphite}`): the dark identity plane, image well, and final contact field; primary ink on light chapters.
+- **Coal** (`{colors.coal}`): the current-work scene's dark half.
+- **Bone** (`{colors.bone}`): the light identity and project fields, and primary text on dark chapters.
+- **Paper** (`{colors.paper}`): the current-work light reveal and the second project scene.
+- **Rule Gray** (`{colors.rule}`): low-contrast registration marks and hairlines.
+- **Muted Gray** (`{colors.muted}`): secondary boundary captions.
+- **Provenance Stone** (`{colors.provenance}`): the history scene's full field.
+- **Writing Graphite** (`{colors.writing}`): the article index's full field.
+- **Human Bone** (`{colors.human}`): the portrait scene's full field.
 
-### Named Rules
+**The Visible Edge Rule.** Vermilion should mark an edge, state, coordinate, or action. Keep large reading planes neutral.
 
-**The One Route Rule.** Orange marks navigation, selection, or a routed structural handoff; it never becomes a decorative fill system.
-
-**The Two Papers Rule.** Use the primary surface for most reading and the alternate surface for one clear tonal shift, not for stacking containers.
+**The Chapter Field Rule.** Change the whole scene's tone when the story changes; do not parcel content into floating cards.
 
 ## Typography
 
-- **Display Font:** Schibsted Grotesk Variable (with sans-serif fallback)
-- **Body Font:** Schibsted Grotesk Variable (with sans-serif fallback)
-- **Label/Mono Font:** Martian Mono Variable (with monospace fallback)
+**Display Font:** Geologica Variable (with sans-serif fallback)
 
-**Character:** Schibsted Grotesk provides wide, confident editorial shapes without ornamental drama. Martian Mono appears only where content behaves like coordinates, provenance, or structured metadata.
+**Body Font:** Geologica Variable (with sans-serif fallback)
+
+**Accent Font:** Instrument Serif italic (with serif fallback)
+
+**Label/Mono Font:** Martian Mono Variable (with monospace fallback)
+
+**Character:** Geologica's variable sharpness and weight make the name and structural headings feel constructed. Instrument Serif interrupts them briefly in the second name line and selected later headlines. Martian Mono carries navigation, scene numbers, provenance, controls, links, and captions.
 
 ### Hierarchy
 
-- **Display** (640, fluid display scale, 0.84 line-height): the two-line name; on wide desktops it expands beyond the base display token to `clamp(8rem, 12.2vw, 11rem)`.
-- **Headline** (640, fluid section scale, 0.95 line-height): major section openings with short, balanced lines.
-- **Title** (570, fluid project scale, 0.98 line-height): selected work and other artifact titles.
-- **Body** (440, fluid body scale, 1.55 line-height): direct explanatory copy, normally held between 44ch and 65ch.
-- **Label** (440, compact mono scale, 0.02em letter-spacing): context, location, chronology markers, and publication metadata.
+- **Identity display** (`{typography.display}`): the two-line decorative name, duplicated across aligned planes. A single visually hidden `h1` supplies the accessible name and role.
+- **Section headline** (`{typography.headline}`): current-work statement; project and later-chapter headlines use related, scene-specific fluid sizes and Geologica sharpness settings.
+- **Serif accent** (`{typography.serif-accent}`): italic second identity line and one emphatic word in selected later headings; not a body face.
+- **Body** (`{typography.body}`): short descriptions and project disclosures in the regular Geologica texture.
+- **Structured label** (`{typography.label}`): compact uppercase mono with measured tracking; sizes vary slightly by component and viewport.
 
-### Named Rules
+**The Two-Voice Rule.** Geologica establishes structure; Instrument Serif interrupts it briefly for a human inflection. Martian Mono locates and labels information.
 
-**The Metadata Boundary Rule.** Mono type identifies and locates; it does not replace prose, headlines, or navigation.
-
-**The Short Display Rule.** Large type stays terse enough to remain a compositional field, never a paragraph enlarged for effect.
+**The Short Statement Rule.** Oversized headings are concise compositional objects. Explanatory detail sits in nearby body copy.
 
 ## Layout
 
-The page uses a centered shell capped at 100rem with a fluid horizontal gutter. Desktop compositions sit on twelve columns: the hero positions its name, introduction, focus list, and route independently; work divides into a seven-to-five index-and-preview relationship; About assigns copy, portrait, and chronology distinct spans.
+The experience is a vertical sequence of eight scenes: identity, current state, two selected projects, provenance, writing, the personal portrait, and exit. The opening identity fills at least one small viewport height. Current work and both projects use taller scroll regions with a `100svh` sticky interior. A fine fixed edge follows `--boundary-x` across those opening scenes, starting at 62% of viewport width. A range control moves it from 8% to 92%; mouse movement updates it on devices using a mouse. An intersection observer hides the edge and control once history, writing, portrait, or exit occupies the center reading band.
 
-Vertical rhythm follows the extracted nine-step spacing scale. Sections use generous 10rem block spacing at wide sizes, tightening to 7rem below 48rem. At 64rem the work preview moves inline with each project and About reflows; at 48rem the grid becomes one column; below 30rem the wordmark abbreviates and secondary hero metadata disappears. Responsive changes preserve the reading order and ordinary page flow.
+The horizontal gutter is `{spacing.page-gutter}`. The identity name is placed directly in the full viewport, with focus and entry cues near its base. Current work uses an asymmetric two-column statement and description. Each project places large type across an offset image, then anchors its public description and optional link in a ruled bottom disclosure strip. Later chapters use a full-width record rhythm: a narrow index and wide content field for history and writing; portrait and copy divide the human chapter.
 
-**The Open Field Rule.** Group with alignment, whitespace, and hairlines before introducing a new surface.
+At 1000px and below, current-work content stacks and project image/title proportions shift. At 700px and below, the gutter becomes 1rem; the two-line name, image aperture, disclosures, records, portrait, and footer each get a separate compact composition. The edge and range control remain visible in opening scenes, with a shorter 7.6rem control. Navigation remains direct anchors while some labels yield to width. At 390px and below, another navigation item is hidden and large type adjusts to the narrower viewport.
+
+**The Controlled Reveal Rule.** One boundary position governs the opening states; do not add unrelated reveal mechanisms to individual components.
 
 ## Elevation & Depth
 
-The system uses no shadows. Depth comes from alternating paper tones, sticky positioning, crop, scale, and image reveal; every surface remains flat at rest and in interaction.
+There are no box shadows. Tonal planes, clipping, cropped photography, sticky section interiors, and slight image scale provide depth. The identity's two color planes and the project's dark image overlay are flat layers, with a 1px vermilion edge making the transition legible. Writing-row hover changes surface tone and inline padding rather than lifting a card.
 
-**The Flat Evidence Rule.** Do not simulate importance with floating cards, ambient shadows, glass, or blur; let content scale and structural placement establish priority.
+**The Flat Registration Rule.** Depth comes from aligned layers and controlled visibility, not glass, glow, or floating panels.
 
 ## Shapes
 
-Media, rows, and content regions are square-cornered. Hairline borders provide most geometry. The sole large curve is the 3.5rem turn in the orange route trace, tightened to 2.25rem on smaller screens; the curve denotes a change in reading direction rather than a general radius style. A 2px radius is reserved for focus-outline fit.
-
-**The Singular Curve Rule.** Curvature belongs to the routed trace only; do not spread rounded rectangles across the interface.
+The shape language is rectangular and tightly cropped. The registration edge is a 1px vertical line with small square markers; the control thumb is a 12px square. Rules divide navigation and records. Project images are flush, square-cornered fields, and the portrait is a large, slightly rotated rectangle. No reusable rounded-card radius or pill silhouette exists.
 
 ## Components
 
-### Navigation
+### Edge navigation
 
-- **Style:** one ruled desktop line with the wordmark left, primary anchors centered, and one external profile right; the smallest layout abbreviates the wordmark to “RC.”
-- **State:** links retain native text behavior and draw a 1px underline from right to left on hover. Keyboard focus uses the dedicated 2px focus outline with a 5px offset.
-- **Targets:** interactive links maintain a 2.75rem minimum height.
+A fixed three-part header holds the `R/C` mark, direct scene anchors, and Contact. Its bone text uses difference blending over changing fields. Links have 2.75rem minimum target height and a fine vermilion underline that grows on hover or focus. On narrow screens the layout tightens and lower-priority anchors are hidden rather than replaced by a menu.
 
-### Routed Hero
+### Boundary control
 
-- **Character:** an oversized two-line name sits in an open editorial field, counterweighted by one concise role statement and optional mono focus metadata.
-- **Signature:** the safety-orange line turns once and runs into the next section. The initial reveal uses clipped vertical movement only when reduced motion is not requested.
+A fixed, labeled native range input controls the visibility boundary, including touch and keyboard arrow input. It sits at the lower right in the opening scenes; mouse movement drives the same value on desktop. The slider's line track and square vermilion thumb echo the fixed edge. It disappears after the selected-work scenes, when the boundary stops controlling the composition.
 
-### Project Rows
+### Identity planes and current state
 
-- **Shape:** full-width, square rows separated by 1px rules; no enclosing card.
-- **Hierarchy:** the project title dominates, context sits in mono at the far edge, and explanatory copy is capped at 56ch.
-- **State:** the active title shifts to deep route orange. Mouse movement offsets the paired preview by at most 12px; keyboard focus activates the same preview state.
-- **Responsive:** below 64rem, each row receives its own inline image and the pointer-reactive preview is removed.
+Two synchronized decorative name layers use opposite ink and field colors. The graphite layer is clipped to the controlled boundary, and its type shifts subtly with the edge. The current scene carries the same clip through a pale overlay against coal; difference blending keeps the white role statement and description legible across both planes.
 
-### Project Preview
+### Project scenes
 
-- **Style:** a sticky, clipped media field on tonal paper with edge-to-edge imagery and a single orange corner rule.
-- **State:** active images reveal from a clipped top edge and settle from a restrained 1.025 scale. No shadow or rounded mask is used.
+Each selected project is a tall sticky scene with a large title, grayscale image, small mono context, and a ruled public disclosure. A bone or paper occluding plane covers the image to the left of the boundary, revealing the photograph on the right; the 1px project aperture continues its line across the image. On desktop a duplicate title layer changes color at the same viewport boundary; on mobile that duplicate is removed. Links appear only where public destinations exist.
 
-### Writing Rows
+### Provenance and writing records
 
-- **Style:** large titles and right-aligned mono provenance sit between hairline dividers on the alternate paper tone.
-- **State:** hover and keyboard focus color the title deep orange and translate it 0.55rem; the metadata moves above the title on small screens.
+History uses numbered, hairline-divided rows with one vermilion registration line and an archive list below. Writing uses full-width article links: index, large title, provenance, and arrow. Hover or focus moves the link's padding into a darker tonal field; the article metadata drops away on mobile while title and destination remain visible.
 
-### Portrait Figure
+### Portrait and exit
 
-- **Style:** a square-cornered 5:7 crop with restrained grayscale and contrast, followed by a mono location caption.
-- **Placement:** it supports the About narrative and never appears as hero decoration.
+The portrait is a large, lightly desaturated personal image with a mono location caption, paired with a brief human note. The final graphite scene returns to monumental type, one direct contact link, external profiles, and a back-to-top anchor.
 
-### Chronology
+### Motion and access
 
-- **Style:** a description list divided by hairlines, pairing compact mono markers with a strong role or institution and muted detail.
-- **Responsive:** column widths tighten without converting entries into cards.
+Where view timelines are supported, the identity type releases upward on exit, project type shifts while project imagery settles from slight scale, and the portrait rotates into position. Boundary updates use a single animation frame. Native focus has a 2px vermilion outline with 5px offset, and a skip link bypasses the opening. Reduced-motion mode removes smooth scrolling, animation, and transitions; the boundary remains at its current visible position and the range control stays adjustable.
 
 ## Do's and Don'ts
 
 ### Do:
 
-- **Do** make the person's name and current work legible within the first viewport.
-- **Do** organize evidence with open grids, exact alignment, and 1px structural rules.
-- **Do** reserve orange for the single route, active states, focus, and link evidence.
-- **Do** keep media square-cornered and provide inline touch alternatives for pointer previews.
-- **Do** preserve visible focus, ordinary scrolling, text selection, and reduced-motion behavior.
+- **Do** keep the boundary tied to what is visible in the identity, current-work, and selected-project scenes.
+- **Do** preserve a labeled range input and keyboard, touch, and reduced-motion access to the opening states.
+- **Do** use Geologica for structural statements, Instrument Serif for brief italic contrast, and Martian Mono for exact metadata.
+- **Do** keep public project descriptions, provenance, and external destinations readable without animation.
+- **Do** compose each chapter as a distinct flat field with square media and fine structural rules.
 
 ### Don't:
 
-- **Don't** add card stacks, floating pills, gradients, glass, ambient shadows, or generalized rounded containers.
-- **Don't** turn mono typography into a terminal aesthetic or use cybersecurity motifs such as code rain, shields, locks, or neon grids.
-- **Don't** introduce multiple accent colors or repeat the routing trace as surface decoration.
-- **Don't** use animation as a prerequisite for understanding content or reaching a link.
-- **Don't** promote unverified metrics, stock imagery, or confidential work into visual proof.
+- **Don't** return to the prior decorative routed-line motif or the index-plus-sticky-preview work layout.
+- **Don't** turn the vermilion edge into repeated ornament, buttons, or broad colored panels.
+- **Don't** introduce card stacks, pills, gradients, glass, glows, or ambient shadows.
+- **Don't** add hacker-terminal or cybersecurity-symbol imagery in place of the actual visibility rule.
+- **Don't** imply that confidential projects have public details or destinations that the content does not provide.
